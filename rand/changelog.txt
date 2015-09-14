@@ -1,0 +1,11 @@
+
+
+Generation of  Normal Random Distribuition values FPGA
+
+	- Mercenne Twister
+	- Box-Muller
+	- Synth OK II = 1
+	- Resource saving optimizations
+	
+	
+	
