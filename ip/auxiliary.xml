@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="rand_top" xd:componentRef="rand_top" xd:initiationInterval="x" xd:clockPeriod="5.000000" xd:sequential="true" xd:hostMachine="64">
+  <xd:returnValue xd:interfaceRef="ap_return" xd:busTypeRef="register" xd:dataWidth="32"/>
+  <xd:controlReg xd:name="control" xd:interfaceRef="ap_ctrl" xd:busTypeRef="acc_handshake" xd:type="acc_handshake"/>
+  <xd:arg xd:name="s0" xd:originalName="s0" xd:direction="in" xd:interfaceRef="s0" xd:busTypeRef="register" xd:dataWidth="32" xd:handshakeRef="ap_none"/>
+  <xd:arg xd:name="s1" xd:originalName="s1" xd:direction="in" xd:interfaceRef="s1" xd:busTypeRef="register" xd:dataWidth="32" xd:handshakeRef="ap_none"/>
+  <xd:arg xd:name="stream_out-&gt;d0" xd:originalName="stream_out" xd:direction="out" xd:interfaceRef="stream_out" xd:busTypeRef="register" xd:dataWidth="32" xd:handshakeRef="ap_ack" xd:dataPack="true" xd:bitMapping="31:0"/>
+  <xd:arg xd:name="stream_out-&gt;d1" xd:originalName="stream_out" xd:direction="out" xd:interfaceRef="stream_out" xd:busTypeRef="register" xd:dataWidth="32" xd:handshakeRef="ap_ack" xd:dataPack="true" xd:bitMapping="63:32"/>
+  <xd:latencyEstimates xd:best-case="undef" xd:worst-case="undef" xd:average-case="undef"/>
+  <xd:resourceEstimates xd:LUT="12976" xd:FF="9679" xd:BRAM="6" xd:DSP="41"/>
+</xd:acceleratorMap>
